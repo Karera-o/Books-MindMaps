@@ -1,0 +1,95 @@
+# The Design Thinking Toolbox
+
+- Core Concept: Design Thinking
+
+  - Human-Centered Approach
+    - Focus on user needs and experiences
+    - Solve real problems creatively
+  - Iterative Process
+    - Experiment, test, refine
+    - Embrace failure as learning
+  - Team Collaboration
+    - Diverse perspectives spark innovation
+    - Facilitate with structure
+- Phases of Design Thinking
+
+  - Understand
+    - Define the challenge
+    - Tools: Problem statement, stakeholder map
+  - Observe
+    - Gather user insights
+    - Tools: Empathy map, personas
+  - Define
+    - Synthesize findings
+    - Tools: Point of View (POV), How Might We (HMW)
+  - Ideate
+    - Generate solutions
+    - Tools: Brainstorming, mind mapping
+  - Prototype
+    - Build tangible ideas
+    - Tools: Storyboards, mockups
+  - Test
+    - Validate with users
+    - Tools: Feedback grid, user testing
+- Essential Tools
+
+  - Empathy Tools
+    - Interviews: Deep user conversations
+    - Observation: Watch behavior in context
+    - Journey Map: Plot user experiences
+  - Ideation Tools
+    - Brainwriting: Silent idea generation
+    - SCAMPER: Modify existing concepts
+    - 6-3-5 Method: Rapid group ideation
+  - Prototyping Tools
+    - Paper Prototypes: Quick sketches
+    - Role-Playing: Act out scenarios
+    - Digital Mockups: Testable interfaces
+  - Testing Tools
+    - A/B Testing: Compare options
+    - Feedback Capture: Structured insights
+    - Iteration Loops: Refine based on data
+- Applying the Toolbox
+
+  - Project Setup
+    - Choose tools for your goal
+    - Example: Startup vs. corporate innovation
+  - Facilitation Tips
+    - Timebox activities
+    - Keep energy high with visuals
+  - Customization
+    - Adapt tools to team size
+    - Mix methods for complexity
+- Practical Examples
+
+  - Business Innovation
+    - Redesign customer service
+    - Example: HMW improve wait times
+  - Product Development
+    - Create user-friendly apps
+    - Prototype and test early
+  - Team Problem-Solving
+    - Resolve internal conflicts
+    - Use empathy maps for alignment
+- Success Factors
+
+  - Mindset
+    - Curiosity and openness
+    - Willingness to iterate
+  - Environment
+    - Whiteboards, sticky notes
+    - Space for creativity
+  - Team Dynamics
+    - Encourage all voices
+    - Avoid groupthink
+- Beyond the Basics
+
+  - Scaling Design Thinking
+    - Apply to large organizations
+    - Integrate with agile methods
+  - Digital Tools
+    - MURAL, Miro for remote work
+    - Enhance collaboration online
+  - Measuring Impact
+    - Track user satisfaction
+    - Assess innovation outcomes
