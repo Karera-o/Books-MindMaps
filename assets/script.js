@@ -122,6 +122,7 @@ function createCategoryFilters() {
         console.log("All filter clicked");
         // Reset category filters
         resetCategoryFilters();
+        console.log("Active categories after reset:", activeCategories); // Added log
         // Apply any existing search query
         applyFilters();
     });
@@ -378,6 +379,18 @@ function resetFilters() {
     // Reset to all books
     filteredBooks = [...allBooks];
     renderBooks();
+}
+
+function resetCategoryFilters() {
+    activeCategories = [];
+    // Ensure "All" button is active
+    const allButton = document.querySelector('.category-tag-btn[data-category="all"]');
+    if (allButton) {
+        allButton.classList.add('active');
+    }
+    document.querySelectorAll('.category-tag-btn:not([data-category="all"])').forEach(btn => {
+        btn.classList.remove('active');
+    });
 }
 
 // Error handling
