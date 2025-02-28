@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>((r) => {
+          setTimeout(r);
+        })(() => {
+  const { markmap, mm } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"The Mom Test","children":[{"content":"Core Principles","children":[{"content":"<strong>The Mom Test Rule</strong>","children":[{"content":"Ask questions that even your mom can&#x2019;t lie about","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"Focus on past behaviors and specific facts, not hypotheticals","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"Avoid leading questions that bias responses","children":[],"payload":{"tag":"li","lines":"11,12"}}],"payload":{"tag":"li","lines":"8,12"}},{"content":"<strong>Why People Lie</strong>","children":[{"content":"They want to be polite or avoid hurting your feelings","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"They speculate about future behavior instead of recalling past actions","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"They tell you what they think you want to hear","children":[],"payload":{"tag":"li","lines":"15,17"}}],"payload":{"tag":"li","lines":"12,17"}}],"payload":{"tag":"h2","lines":"6,7"}},{"content":"Effective Customer Conversations","children":[{"content":"<strong>Asking the Right Questions</strong>","children":[{"content":"Focus on specific, concrete experiences","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Ask about past behaviors instead of future intentions","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Dig into problems, not solutions","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"21,25"}},{"content":"<strong>Avoiding Bad Questions</strong>","children":[{"content":"Hypotheticals (e.g., &quot;Would you buy this?&quot;)","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Leading questions (e.g., &quot;Don&#x2019;t you think this is a great idea?&quot;)","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"Generic praise (e.g., &quot;Do you like this?&quot;)","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"li","lines":"25,29"}},{"content":"<strong>Listening for Insights</strong>","children":[{"content":"Pay attention to emotional language and pain points","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"Look for patterns across multiple conversations","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Identify gaps between what people say and what they do","children":[],"payload":{"tag":"li","lines":"32,34"}}],"payload":{"tag":"li","lines":"29,34"}}],"payload":{"tag":"h2","lines":"19,20"}},{"content":"Structuring the Conversation","children":[{"content":"<strong>Preparing for the Talk</strong>","children":[{"content":"Define your goals and hypotheses","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"Identify the riskiest assumptions to test","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"Prepare open-ended, non-leading questions","children":[],"payload":{"tag":"li","lines":"41,42"}}],"payload":{"tag":"li","lines":"38,42"}},{"content":"<strong>During the Conversation</strong>","children":[{"content":"Start with broad questions to uncover problems","children":[],"payload":{"tag":"li","lines":"43,44"}},{"content":"Drill down into specifics to understand context","children":[],"payload":{"tag":"li","lines":"44,45"}},{"content":"Avoid pitching your idea too early","children":[],"payload":{"tag":"li","lines":"45,46"}}],"payload":{"tag":"li","lines":"42,46"}},{"content":"<strong>After the Conversation</strong>","children":[{"content":"Document insights and patterns","children":[],"payload":{"tag":"li","lines":"47,48"}},{"content":"Update your assumptions and hypotheses","children":[],"payload":{"tag":"li","lines":"48,49"}},{"content":"Plan follow-up conversations if needed","children":[],"payload":{"tag":"li","lines":"49,51"}}],"payload":{"tag":"li","lines":"46,51"}}],"payload":{"tag":"h2","lines":"36,37"}},{"content":"Common Mistakes and Fixes","children":[],"payload":{"tag":"h2","lines":"53,54"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
