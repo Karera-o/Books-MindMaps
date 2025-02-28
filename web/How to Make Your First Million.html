@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>((r) => {
+          setTimeout(r);
+        })(() => {
+  const { markmap, mm } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"How to Make Your First Million","children":[{"content":"Core Principles","children":[{"content":"<strong>Mindset and Attitude</strong>","children":[{"content":"Believe in your ability to achieve financial success","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"Cultivate a mindset of abundance and possibility","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"Stay disciplined, persistent, and focused on your goals","children":[],"payload":{"tag":"li","lines":"11,12"}}],"payload":{"tag":"li","lines":"8,12"}},{"content":"<strong>Financial Literacy</strong>","children":[{"content":"Educate yourself about money management and investing","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Understand the principles of saving, budgeting, and investing","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"Continuously learn and adapt to new financial opportunities","children":[],"payload":{"tag":"li","lines":"15,17"}}],"payload":{"tag":"li","lines":"12,17"}}],"payload":{"tag":"h2","lines":"6,7"}},{"content":"Building Wealth Step-by-Step","children":[{"content":"1. <strong>Set Clear Financial Goals</strong>","children":[{"content":"Define what &quot;making a million&quot; means to you","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Break down your goal into smaller, actionable steps","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Create a timeline and track your progress","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"21,25","listIndex":1}},{"content":"2. <strong>Increase Your Income</strong>","children":[{"content":"Develop high-income skills (e.g., coding, sales, marketing)","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Pursue side hustles or freelance work","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"Invest in education and certifications to boost your earning potential","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"li","lines":"25,29","listIndex":2}},{"content":"3. <strong>Save and Invest Wisely</strong>","children":[{"content":"Live below your means and save a significant portion of your income","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"Build an emergency fund for financial security","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Invest in assets that appreciate over time (e.g., stocks, real estate)","children":[],"payload":{"tag":"li","lines":"32,34"}}],"payload":{"tag":"li","lines":"29,34","listIndex":3}}],"payload":{"tag":"h2","lines":"19,20"}},{"content":"Strategies for Wealth Creation","children":[{"content":"<strong>Investing in the Stock Market</strong>","children":[{"content":"Start with low-cost index funds or ETFs","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"Diversify your portfolio to manage risk","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"Stay invested for the long term to benefit from compounding","children":[],"payload":{"tag":"li","lines":"41,42"}}],"payload":{"tag":"li","lines":"38,42"}},{"content":"<strong>Real Estate Investing</strong>","children":[{"content":"Purchase rental properties for passive income","children":[],"payload":{"tag":"li","lines":"43,44"}},{"content":"Flip houses for quick profits","children":[],"payload":{"tag":"li","lines":"44,45"}},{"content":"Invest in REITs (Real Estate Investment Trusts) for diversification","children":[],"payload":{"tag":"li","lines":"45,46"}}],"payload":{"tag":"li","lines":"42,46"}},{"content":"<strong>Entrepreneurship</strong>","children":[{"content":"Start a business in a field you&#x2019;re passionate about","children":[],"payload":{"tag":"li","lines":"47,48"}},{"content":"Focus on solving a problem or meeting a market need","children":[],"payload":{"tag":"li","lines":"48,49"}},{"content":"Scale your business through innovation and marketing","children":[],"payload":{"tag":"li","lines":"49,51"}}],"payload":{"tag":"li","lines":"46,51"}}],"payload":{"tag":"h2","lines":"36,37"}},{"content":"Managing Money Effectively","children":[{"content":"<strong>Budgeting and Saving</strong>","children":[{"content":"Track your income and expenses to create a budget","children":[],"payload":{"tag":"li","lines":"56,57"}},{"content":"Cut unnecessary expenses and prioritize saving","children":[],"payload":{"tag":"li","lines":"57,58"}},{"content":"Automate savings and investments to stay consistent","children":[],"payload":{"tag":"li","lines":"58,59"}}],"payload":{"tag":"li","lines":"55,59"}}],"payload":{"tag":"h2","lines":"53,54"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>

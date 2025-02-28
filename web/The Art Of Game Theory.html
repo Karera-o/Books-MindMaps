@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>((r) => {
+          setTimeout(r);
+        })(() => {
+  const { markmap, mm } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"The Art of Game Theory","children":[{"content":"\n<p data-lines=\"2,3\">Core Concept: Life as a Game</p>","children":[{"content":"Rules Exist","children":[{"content":"Unwritten but discoverable","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"Shape interactions and outcomes","children":[],"payload":{"tag":"li","lines":"6,7"}}],"payload":{"tag":"li","lines":"4,7"}},{"content":"Strategic Thinking","children":[{"content":"Predict, influence, win","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"Applies to work, home, relationships","children":[],"payload":{"tag":"li","lines":"9,10"}}],"payload":{"tag":"li","lines":"7,10"}},{"content":"Empathy&#x2019;s Role","children":[{"content":"Understand others to succeed","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"Create win-win scenarios","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"10,13"}}],"payload":{"tag":"li","lines":"2,13"}},{"content":"\n<p data-lines=\"13,14\">Foundations of Game Theory</p>","children":[{"content":"What It Is","children":[{"content":"Study of decisions with interdependence","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Balances self-interest and cooperation","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"15,18"}},{"content":"Key Concepts","children":[{"content":"Nash Equilibrium: Stable outcomes","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"Prisoner&#x2019;s Dilemma: Trust vs. betrayal","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Zero-Sum Games: One wins, one loses","children":[],"payload":{"tag":"li","lines":"21,22"}}],"payload":{"tag":"li","lines":"18,22"}},{"content":"Everyday Relevance","children":[{"content":"Bargaining for pay or chores","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Navigating social dynamics","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"22,25"}}],"payload":{"tag":"li","lines":"13,25"}},{"content":"\n<p data-lines=\"25,26\">Prediction: Anticipating Moves</p>","children":[{"content":"Read the Room","children":[{"content":"Observe patterns and cues","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"Example: Spotting a bluff in&#x8c08;&#x5224;","children":[],"payload":{"tag":"li","lines":"29,30"}}],"payload":{"tag":"li","lines":"27,30"}},{"content":"Backward Induction","children":[{"content":"Work from endgame to now","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Plan with the finish line in mind","children":[],"payload":{"tag":"li","lines":"32,33"}}],"payload":{"tag":"li","lines":"30,33"}},{"content":"Signal Decoding","children":[{"content":"Interpret actions and words","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"Education as a power signal","children":[],"payload":{"tag":"li","lines":"35,36"}}],"payload":{"tag":"li","lines":"33,36"}}],"payload":{"tag":"li","lines":"25,36"}},{"content":"\n<p data-lines=\"36,37\">Influence: Shaping Outcomes</p>","children":[{"content":"Strategic Choices","children":[{"content":"When to push, when to yield","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"Timing shifts leverage","children":[],"payload":{"tag":"li","lines":"40,41"}}],"payload":{"tag":"li","lines":"38,41"}},{"content":"Common Games","children":[{"content":"Trust dilemmas, auctions, rivalry","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"Recognize and adapt","children":[],"payload":{"tag":"li","lines":"43,44"}}],"payload":{"tag":"li","lines":"41,44"}},{"content":"Power Plays","children":[{"content":"Turn tables on stronger opponents","children":[],"payload":{"tag":"li","lines":"45,46"}},{"content":"Use info to gain edges","children":[],"payload":{"tag":"li","lines":"46,47"}}],"payload":{"tag":"li","lines":"44,47"}}],"payload":{"tag":"li","lines":"36,47"}},{"content":"\n<p data-lines=\"47,48\">Empathetic Strategy</p>","children":[{"content":"Understand Motives","children":[{"content":"See others&#x2019; perspectives","children":[],"payload":{"tag":"li","lines":"50,51"}},{"content":"Predict behavior through empathy","children":[],"payload":{"tag":"li","lines":"51,52"}}],"payload":{"tag":"li","lines":"49,52"}},{"content":"Collaboration Over Conquest","children":[{"content":"Aim for mutual gain","children":[],"payload":{"tag":"li","lines":"53,54"}},{"content":"Example: Jobs&#x2019; Apple as a bold move","children":[],"payload":{"tag":"li","lines":"54,55"}}],"payload":{"tag":"li","lines":"52,55"}},{"content":"Build Trust","children":[{"content":"Signals like reliability matter","children":[],"payload":{"tag":"li","lines":"56,57"}},{"content":"Long-term wins over short-term grabs","children":[],"payload":{"tag":"li","lines":"57,58"}}],"payload":{"tag":"li","lines":"55,58"}}],"payload":{"tag":"li","lines":"47,58"}},{"content":"\n<p data-lines=\"58,59\">Practical Applications</p>","children":[{"content":"Decision-Making Toolkit","children":[{"content":"Assess stakes and players","children":[],"payload":{"tag":"li","lines":"61,62"}},{"content":"Choose moves with intent","children":[],"payload":{"tag":"li","lines":"62,63"}}],"payload":{"tag":"li","lines":"60,63"}},{"content":"Real-World Examples","children":[{"content":"Business: Pricing and leadership","children":[],"payload":{"tag":"li","lines":"64,65"}},{"content":"Personal: Negotiating with friends","children":[],"payload":{"tag":"li","lines":"65,66"}}],"payload":{"tag":"li","lines":"63,66"}},{"content":"Exercises","children":[{"content":"End-of-chapter activities","children":[],"payload":{"tag":"li","lines":"67,68"}},{"content":"Test strategies in daily life","children":[],"payload":{"tag":"li","lines":"68,69"}}],"payload":{"tag":"li","lines":"66,69"}}],"payload":{"tag":"li","lines":"58,69"}},{"content":"\n<p data-lines=\"69,70\">Winning at Life</p>","children":[{"content":"Optimize Choices","children":[{"content":"Focus on high-impact decisions","children":[],"payload":{"tag":"li","lines":"72,73"}},{"content":"Cut wasteful games","children":[],"payload":{"tag":"li","lines":"73,74"}}],"payload":{"tag":"li","lines":"71,74"}},{"content":"Playbook Creation","children":[{"content":"9 steps to strategize","children":[],"payload":{"tag":"li","lines":"75,76"}},{"content":"Tailor to your goals","children":[],"payload":{"tag":"li","lines":"76,77"}}],"payload":{"tag":"li","lines":"74,77"}},{"content":"Balance Strategy and Fun","children":[{"content":"Simplify complexity","children":[],"payload":{"tag":"li","lines":"78,79"}},{"content":"Enjoy the process","children":[],"payload":{"tag":"li","lines":"79,80"}}],"payload":{"tag":"li","lines":"77,80"}}],"payload":{"tag":"li","lines":"69,80"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
