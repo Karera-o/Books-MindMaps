@@ -350,8 +350,8 @@ const books = [
     "description": "A strategic guide to planning and executing business moves."
   },
   {
-    "title": "business model",
-    "shortTitle": "business model",
+    "title": "Business Model",
+    "shortTitle": "Business Model",
     "path": "web/business model.html",
     "category": "Business Strategy",
     "description": "Explores frameworks for developing effective business models."
