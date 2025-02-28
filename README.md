@@ -1,6 +1,7 @@
-# 📚 Ultimate Book Mind Maps Repository  
+# 📚 Ultimate Book Mind Maps Repository
+You can view the website here: https://karera-o.github.io/Mindmaps/
 
-Welcome to the **Ultimate Book Mind Maps Repository**! 🚀 This repository contains **detailed, structured mind maps** for a wide variety of books, helping you quickly grasp key concepts before reading or purchasing a book.  
+Welcome to the **Ultimate Book Mind Maps Repository**! 🚀 This repository contains **detailed, structured mind maps** for a wide variety of books, helping you quickly grasp key concepts before reading or purchasing a book.
 
 ## 🌟 Why Use This Repository?  
 - **Save Time** ⏳ – Get the essence of a book in minutes.  
@@ -49,4 +50,3 @@ This repository is open-source under the **MIT License**. Feel free to use and s
 If you find this useful, give us a ⭐ on GitHub and share it with fellow book lovers! 🚀📖
 
 ## 🌐 Website
-You can view the website here: https://karera-o.github.io/Mindmaps/
